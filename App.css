@@ -1,0 +1,95 @@
+body{
+ background-color: white;
+}
+.main{
+  margin-top: 60px;
+  font-size: 20px;
+  color: grey;
+}
+.editimg{
+  width: 30px;
+ margin-left: 490px;
+  margin-top: 10px;
+}
+.binimg{
+  width: 30px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.submitbutton{
+  background-color:white;
+  width: 90px;
+  height: 40px;
+  border:solid;
+  border-color:#f76b8a;
+  border-radius: 30px;
+  color: #f76b8a;
+}
+.text2{
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.edittextarea{
+width: 200px;
+height: 100px;
+}
+.edittext{
+  width: 200px;
+  height: 30px;
+}
+.savebutton{
+  width: 90px;
+  height: 40px;
+  border:solid;
+  border-color:#66bfbf; 
+  border-radius: 30px;
+  background-color: #66bfbf;
+  color: white;
+  margin-top: 20px;
+}
+.submitbutton:hover{
+  background-color:#f76b8a;
+  color: white;
+  border:solid;
+  border-color: #f76b8a;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  padding: 9px;
+}
+.questions{
+  padding: 30px;
+  line-height: 50px;
+  font-size: 17px;
+  color: black;
+ 
+}
+.area{
+width: 500px;
+height: 100px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:#eaf6f6; 
+  color: black;
+  width: 500px;
+}
+
+.item img {
+  margin-right: 15px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.editimg, .binimg {
+  cursor: pointer;
+  margin-left: 10px;
+}
